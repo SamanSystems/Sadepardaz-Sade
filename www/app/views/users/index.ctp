@@ -10,6 +10,7 @@ echo '<div class="content_title">
 			$form->input('email').
 			$form->input('amount').
 			$form->input('desc').
+			$form->input('pg',array('options' => array('sa'=>'بانک سامان','zp'=>'زرین پال'),'label'=>'درگاه پرداخت')).
 			$form->end(__("Add Fund",true)).	
 		'</div>';
 ?>
